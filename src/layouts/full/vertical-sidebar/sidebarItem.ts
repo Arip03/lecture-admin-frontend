@@ -37,17 +37,6 @@ const sidebarItem: menu[] = [
         icon: CopyIcon,
         to: '/ui/shadow'
     },
-    { header: 'auth' },
-    {
-        title: 'Login',
-        icon: LoginIcon,
-        to: '/auth/login'
-    },
-    {
-        title: 'Register',
-        icon: UserPlusIcon,
-        to: '/auth/register'
-    },
     { header: 'Extra' },
     {
         title: 'Icons',
