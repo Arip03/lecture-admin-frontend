@@ -1,4 +1,9 @@
-[
+{
+  "pageSize": 10,
+  "currentPage": 1,
+  "totalElements":59,
+  "totalPages":6,
+  "users": [
     {
       "id": 1,
       "name": "John Doe",
@@ -28,4 +33,4 @@
       "dateJoined": "2021-07-22"
     }
   ]
-  
+}
