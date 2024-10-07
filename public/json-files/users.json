@@ -1,0 +1,31 @@
+[
+    {
+      "id": 1,
+      "name": "John Doe",
+      "role": "Admin",
+      "posts": 24,
+      "dateJoined": "2022-01-15"
+    },
+    {
+      "id": 2,
+      "name": "Jane Smith",
+      "role": "Author",
+      "posts": 18,
+      "dateJoined": "2023-03-20"
+    },
+    {
+      "id": 3,
+      "name": "Michael Brown",
+      "role": "Author",
+      "posts": 10,
+      "dateJoined": "2022-11-05"
+    },
+    {
+      "id": 4,
+      "name": "Emily Davis",
+      "role": "Admin",
+      "posts": 42,
+      "dateJoined": "2021-07-22"
+    }
+  ]
+  
