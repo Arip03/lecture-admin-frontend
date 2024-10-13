@@ -6,9 +6,11 @@
     "paths": {
       "@/*": ["./src/*"]
     },
-    "allowJs": true
+    "allowJs": true,
+    "types": ["@types/node", "@types/vuex"],
+    "esModuleInterop": true,
+    "verbatimModuleSyntax": true
   },
-
   "references": [
     {
       "path": "./tsconfig.vite-config.json"

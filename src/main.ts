@@ -8,10 +8,12 @@ import PerfectScrollbar from 'vue3-perfect-scrollbar';
 import VueApexCharts from 'vue3-apexcharts';
 import VueTablerIcons from 'vue-tabler-icons';
 import Maska from 'maska';
+import store from './store/store';
 
 const app = createApp(App);
 
 app.use(router);
+app.use(store);
 app.use(PerfectScrollbar);
 app.use(VueTablerIcons);
 app.use(Maska);

@@ -16,6 +16,12 @@ const MainRoutes = {
             path: '/user',
             component: () => import('@/views/components/UserList.vue')
         },
+        {
+            name: 'Form',
+            path: '/form/:id',
+            props: true,
+            component: () => import('@/views/components/Form.vue')
+        },
     ]
 };
 
