@@ -9,6 +9,8 @@ import VueApexCharts from 'vue3-apexcharts';
 import VueTablerIcons from 'vue-tabler-icons';
 import Maska from 'maska';
 import store from './store/store';
+import '@fortawesome/fontawesome-free/css/all.css';
+
 
 const app = createApp(App);
 

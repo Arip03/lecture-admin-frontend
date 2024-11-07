@@ -1,7 +1,7 @@
 import {
     ApertureIcon,
     CopyIcon,
-    LayoutDashboardIcon, LoginIcon, MoodHappyIcon, TypographyIcon, UserIcon, UserPlusIcon
+    LayoutDashboardIcon, LoginIcon, MoodHappyIcon, TypographyIcon, UserIcon, UserPlusIcon, Volume2Icon
 } from 'vue-tabler-icons';
 
 export interface menu {
@@ -31,6 +31,12 @@ const sidebarItem: menu[] = [
         title: 'Users',
         icon: UserIcon,
         to: '/user'
+    },
+    { header: 'Lectures' },
+    {
+        title: 'Lectures',
+        icon: Volume2Icon,
+        to: '/lectures'
     }
 ];
 

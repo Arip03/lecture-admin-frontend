@@ -22,6 +22,13 @@ const MainRoutes = {
             props: true,
             component: () => import('@/views/components/Form.vue')
         },
+        {
+            name: 'Lecture',
+            path: '/lectures',
+            props: true,
+            component: () => import('@/views/components/Lecture.vue')
+        },
+        
     ]
 };
 

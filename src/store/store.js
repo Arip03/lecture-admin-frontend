@@ -29,6 +29,10 @@ const store = createStore({
           dateJoined: "2023-03-20"
         },
       ],
+      lectures: [
+        {
+        }
+      ],
       roles: [
         "Admin",   // Capitalized
         "Author"   // Capitalized
@@ -48,6 +52,9 @@ const store = createStore({
     removeUser(state, userId) {
       state.users = state.users.filter((user) => user.id !== userId);
     },
+    addLecture(state, lecture) {
+      state.lectures.push(lecture);
+    },
   },
   actions: {
     addUser({ commit }, user) {
@@ -59,6 +66,11 @@ const store = createStore({
     removeUser({ commit }, userId) {
       commit('removeUser', userId);
     },
+
+    // Lecture Actions
+    addLecture({ commit }, lecture) {
+      commit('addLecture', lecture);
+    },
   },
   getters: {
     getUsers(state) {
@@ -69,6 +81,9 @@ const store = createStore({
     },
     getRoles(state) {
       return state.roles;
+    },
+    getLectures(state) {
+      return state.lectures;
     }
   },
 });
